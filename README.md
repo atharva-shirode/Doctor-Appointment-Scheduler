@@ -1,4 +1,4 @@
-# Doctor-Appointment-Scheduler
+# Doctor-Appointment-Scheduler(Socket Programming)
 An application that schedules appointments of patients with doctors based upon their availability.It is a client-server architecture-based communication which uses TCP and UDP sockets.
 
 The program runs in 3 phases: user authentication, scheduling an appointment at an available time, getting estimated cost of visit from the scheduled doctor by sending insurance information. We have the healthcenter server for authenticating users and reserving time slots, 2 patients and 2 doctors. Communication between the health center server and patients in the first 2 phases is through TCP sockets. In the last phase, communication between the doctors and the patients is through dynamic UDP sockets.

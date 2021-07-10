@@ -35,6 +35,7 @@ If an invalid index in entered (integer outside the range of 1-6), then the serv
  
 The doctor1 port will still remain open in case of a possible connection with patient2
 •	Repeat similar steps for patient2.
+
 •	We saw that patient1 selected the time slot with index 1. So that time slot will not be available to patient2 and hence it will not be displayed. However, still if patient2 tries to enter index 1 as its preferred appointment index, then a message will be displayed to patient2 saying that the chosen index is not available and hence it is made to exit the program and the connection of patient2 with the health centre server is immediately closed.
 
 
